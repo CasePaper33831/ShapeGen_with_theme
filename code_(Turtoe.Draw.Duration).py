@@ -140,7 +140,7 @@ def main():
 
     colors = choose_color_theme()
     # User input for how long Turtle should draw, with a minimum of 5 second duration
-    user_input = input("Enter the number of seconds (minimum 5 seconds): ")
+    user_input = input("How long should Turtle draw for? (minimum 5 seconds): ")
     seconds = max(5, int(user_input))
 
     start_time = time.time()
